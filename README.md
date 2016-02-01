@@ -1,2 +1,2 @@
 # WebPages
-Different project to learn web design
+Different projects to learn web design
