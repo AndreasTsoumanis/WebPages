@@ -1,0 +1,8 @@
+{
+    "name": "ELECTROSHOCK",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Andreas Tsoumanis",
+    "contributors": [],
+    "dependencies": {}
+}
