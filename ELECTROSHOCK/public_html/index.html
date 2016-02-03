@@ -5,46 +5,78 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
-        <title>ELECTROSHOCK - ELECTRICAL MATERIAL</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="styles/styles.css">
-    </head>
-    
-    <body>
-    
+
+<head>
+    <title>ELECTROSHOCK - ELECTRICAL MATERIAL</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+</head>
+
+<body>
+
     <div id="container">
         <header>
-            <img src="images/logo.jpg" alt="Electroshock">    
+            <img src="images/logo.jpg" alt="Electroshock">
             <nav id="navbar">
-            <ul>
-                <li><a  href="#" >Αρχική</a></li>
-                <li><a  href="products.html" >Προϊόντα</a></li>
-                <li><a  href="company.html" >Η εταιρία</a></li>
-                <li><a  href="info.html" >Χρήσιμες πληροφορίες</a></li>
-                <li><a  href="partners.html" >Συνεργάτες</a></li>
-                <li><a  href="contact.html" >Επικοινωνίας</a></li>
-            </ul>        
+                <ul>
+                    <li><a href="#">Αρχική</a></li>
+                    <li><a href="products.html">Προϊόντα</a></li>
+                    <li><a href="company.html">Η εταιρία</a></li>
+                    <li><a href="info.html">Χρήσιμες πληροφορίες</a></li>
+                    <li><a href="partners.html">Συνεργάτες</a></li>
+                    <li><a href="contact.html">Επικοινωνίας</a></li>
+                </ul>
             </nav>
         </header>
 
-    
+
         <section id="maincontent">
             <h2>Main content and git</h2>
+            <p>
+                <h3>Emmet HTML</h3>
+                <img src="images/common-syntax.jpg" alt="common_syntax">
+                <or>
+                    <li>Nesting: header>nav>div>ul>li</li>
+                    <li>Sibling: header+section+article+footer</li>
+                    <li>Climb Up: header>div>h1^nav</li>
+                    <li>Add Class: div.container.center>header>h1.title+nav.fixed</li>
+                    <li>Add ID: div#about>header#title+section#sidebar</li>
+                    <li>Add Text: container>header>h1{text i want}</li>
+                    <li>Add Attribute: img[src="logo.png" alt="logo"]</li>
+                    <li>Grouping: .container>(header>h1+nav.fixed)+(section>.content+.sidebar)</li>
+                    <li>Multiplication: ul>li*5</li>
+                    <li>Automatic Numbering: ul>li.item$*5</li>
+                    <li>Lorem: lorem10</li>
+                    <li>Auto Document: !, for html4 html:4t</li>
+                    <li>Link: To include a favicon, type link:favicon then it will generate you a favicon link with default favicon.ico file name inside. And for css, link:css will generate you a CSS link with default style.css style name inside. And RSS will be rss.xml as the default name. Or you can even have head>link:css+link:favicon+link:rss</li>
+                    <li>Anchor: a +tab, a:link +tab, a:mail +tab</li>
+                    <li>Smart Skipping: </li>
+                </or>
+                <h3>Emmet CSS</h3>
+                <or>
+                    <li>width and height: w100, w100%, w100em, w:a+h:a</li>
+                    <li>Text: ta will generate text-align with left value, td will be text-decoration with none value and tt will become text-transform with uppercase value</li>
+                    <li>Background: To add background, simply use bg abbreviation. You can combine it with bgi to get background-image, bgc for background-color and bgr for background-repeat. You can also write bg+ to get a full list of background property</li>
+                    <li>Font Face: For @font-face, you can simply write @f+ for a complete list of @font-face property. If you type @f without plus sign, then you’ll get a basic @font-face only.</li>
+                    <li>Miscellaneous: Other great tricks are you can abbreviate writing animation with anim text. If you add a minus - sign, you’ll get animation property with full value. There is also @kf text that will produce full list of @keyfram</li>
+                </or>
+            </p>
+
             <div id="first">main content</div>
-            <p><button id="btn">Surprise!!</button></p>
+            <p>
+                <button id="btn">Surprise!!</button>
+            </p>
         </section>
 
-        <footer id="footer">     
-                Andreas Tsoumanis, 2016 
+        <footer id="footer">
+            Andreas Tsoumanis, 2016
         </footer>
 
     </div>
-    
-    <script type="text/javascript" src="scripts\main.js"></script>
 
-    </body>
+    <script type="text/javascript" src="scripts/main.js"></script>
+
+</body>
+
 </html>
-
-
