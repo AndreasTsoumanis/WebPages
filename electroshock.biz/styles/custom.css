@@ -1,0 +1,50 @@
+body {
+    background-color: gray;
+    color: orange;
+}
+
+.active a {
+    color: orange !important;
+}
+
+.carousel-caption {
+    color: orange !important;
+}
+
+.navbar-wrapper {
+    color: red !important;
+}
+
+footer p,
+footer a {
+    color: orange;
+    font-weight: bold;
+    background-color: #777777;
+}
+
+#promotion,
+#partners {
+    background-color: #777777;
+    color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#promotion img {
+    width: 250px;
+}
+
+#partners img {
+    width: 450px;
+    height: 100px;
+}
+
+#promotion img:hover {
+    width: 800px;
+}
+
+#earth {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
